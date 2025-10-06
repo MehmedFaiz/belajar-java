@@ -4,7 +4,7 @@ public class bumcak {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         System.out.print("masukkan bilangan real :");
-        String hasil ="";
+        String hasil = "";
         int N = input.nextInt();
         if(N % 2 == 0){
             hasil += "Bum";
