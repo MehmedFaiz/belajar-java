@@ -21,6 +21,7 @@ public class bumcak {
         if(N % 11 == 0){
             hasil += "Dum";
         }
+        System.out.println(hasil);
         input.close();
 
     }
