@@ -41,5 +41,4 @@ public class projectATM {
         }
         while(pilihan != 4);
     }
-    
 }
