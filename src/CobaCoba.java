@@ -1,8 +1,5 @@
-import java.io.*;
+
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
 public class CobaCoba {
 
@@ -28,5 +25,6 @@ public class CobaCoba {
             kategori = "error";
         }
         System.out.print("Halo " + nama + ", Anda termasuk kategori" + kategori);
+        sc.close();
     }
 }

@@ -79,6 +79,6 @@ public class utp2 {
             default:
                 System.out.println("Perintah tidak dikenali: " + cmd);
             }
-        }
+        }input.close();
     }
 }

@@ -73,5 +73,6 @@ public class utp1 {
         }
         System.out.println();
         System.out.println("Total huruf (tanpa spasi): " + totalHuruf);
+        sc.close();
     }
 }

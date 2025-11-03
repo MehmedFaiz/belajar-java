@@ -1,8 +1,8 @@
 public class ujiPolygon {
     public static void main(String[] args) {
         regularpolygon poli1 = new regularpolygon();
-        regularpolygon poli2 = new regularpolygon();
-        regularpolygon poli3 = new regularpolygon();
+        regularpolygon poli2 = new regularpolygon(6, 4);
+        regularpolygon poli3 = new regularpolygon(10, 4, 5.6, 7.8);
 
         System.out.println("--- Poligon 1 ---");
         System.out.println("Keliling: " + poli1.getPerimeter());
@@ -16,5 +16,5 @@ public class ujiPolygon {
         System.out.println("Keliling: " + poli3.getPerimeter());
         System.out.println("Luas: " + poli3.getArea());
     }
-    
+
 }
